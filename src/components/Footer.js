@@ -198,34 +198,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
-      <style jsx global>{`
-        @media (max-width: 992px) {
-          .footer-grid {
-            grid-template-columns: repeat(2, 1fr) !important;
-          }
-        }
-        @media (max-width: 576px) {
-          .footer-grid {
-            grid-template-columns: 1fr !important;
-            gap: 2rem !important;
-          }
-          .footer-bottom-bar {
-            flex-direction: column;
-            text-align: center;
-          }
-        }
-        .social-hover-icon:hover {
-          background-color: var(--primary) !important;
-          color: #ffffff !important;
-          transform: translateY(-3px);
-        }
-        .footer-link-item:hover {
-          color: var(--primary) !important;
-          padding-left: 3px;
-          transition: all var(--transition-fast);
-        }
-      `}</style>
     </footer>
   );
 }
+

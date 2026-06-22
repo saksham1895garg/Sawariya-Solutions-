@@ -412,3 +412,99 @@ textarea.form-control {
   }
 }
 
+/* ==========================================
+   INTERACTIVE HOVER EFFECTS
+   ========================================== */
+
+/* Flex center utility */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Service / Blog link hover effects */
+.service-link-hover:hover {
+  color: var(--secondary) !important;
+}
+
+.service-link-hover:hover svg {
+  transform: translateX(4px);
+  transition: transform var(--transition-fast);
+}
+
+.blog-title-link:hover {
+  color: var(--primary) !important;
+}
+
+.glass-panel:hover .blog-card-img {
+  transform: scale(1.05);
+}
+
+/* Navbar link hover */
+.nav-item-link:hover {
+  color: var(--primary) !important;
+}
+
+/* Portfolio hover effects */
+.portfolio-img:hover {
+  transform: scale(1.03);
+}
+
+.filter-btn-hover:hover {
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+}
+
+/* Footer hover effects */
+.social-hover-icon:hover {
+  background-color: var(--primary) !important;
+  color: #ffffff !important;
+  transform: translateY(-3px);
+}
+
+.footer-link-item:hover {
+  color: var(--primary) !important;
+  padding-left: 3px;
+  transition: all var(--transition-fast);
+}
+
+/* Footer responsive grid */
+@media (max-width: 992px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .hidden-mobile {
+    display: none !important;
+  }
+  .show-mobile {
+    display: block !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+  .footer-bottom-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Admin panel hover effects */
+.admin-nav-btn:hover {
+  background-color: rgba(0, 74, 173, 0.03) !important;
+  color: var(--primary) !important;
+}
+
+table th {
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+table tr:hover {
+  background-color: #fcfdfe;
+}
+

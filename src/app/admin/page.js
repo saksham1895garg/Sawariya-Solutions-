@@ -1451,24 +1451,7 @@ export default function AdminDashboardPage() {
         )}
 
       </main>
-
-      <style jsx global>{`
-        @keyframes spin {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
-        }
-        .admin-nav-btn:hover {
-          background-color: rgba(0, 74, 173, 0.03) !important;
-          color: var(--primary) !important;
-        }
-        table th {
-          font-weight: 700;
-          color: var(--text-muted);
-        }
-        table tr:hover {
-          background-color: #fcfdfe;
-        }
-      `}</style>
     </div>
   );
 }
+

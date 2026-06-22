@@ -221,17 +221,7 @@ export default function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
-
-      <style jsx global>{`
-        @media (max-width: 992px) {
-          .hidden-mobile {
-            display: none !important;
-          }
-          .show-mobile {
-            display: block !important;
-          }
-        }
-      `}</style>
     </>
   );
 }
+

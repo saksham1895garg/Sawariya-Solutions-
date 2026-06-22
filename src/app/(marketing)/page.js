@@ -645,29 +645,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <style jsx global>{`
-        @keyframes spin {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
-        }
-        .flex-center {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        .service-link-hover:hover {
-          color: var(--secondary) !important;
-        }
-        .service-link-hover:hover svg {
-          transform: translateX(4px);
-        }
-        .blog-title-link:hover {
-          color: var(--primary) !important;
-        }
-        .glass-panel:hover .blog-card-img {
-          transform: scale(1.05);
-        }
-      `}</style>
     </>
   );
 }
+

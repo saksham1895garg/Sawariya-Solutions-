@@ -147,16 +147,7 @@ export default function PortfolioPage() {
           )}
         </div>
       </section>
-
-      <style jsx global>{`
-        .portfolio-img:hover {
-          transform: scale(1.03);
-        }
-        .filter-btn-hover:hover {
-          border-color: var(--primary);
-          color: var(--primary);
-        }
-      `}</style>
     </div>
   );
 }
+

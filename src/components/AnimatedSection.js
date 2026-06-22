@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 export default function AnimatedSection({
   children,
   className = '',
+  style = {},
   delay = 0,
   duration = 0.6,
   yOffset = 40,
@@ -43,8 +44,10 @@ export default function AnimatedSection({
         ease: [0.16, 1, 0.3, 1], // easeOutExpo
       }}
       className={className}
+      style={style}
     >
       {children}
     </motion.div>
   );
 }
+
